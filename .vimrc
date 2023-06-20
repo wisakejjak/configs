@@ -40,15 +40,9 @@ set incsearch
 "backspace in insert mode
 set backspace=indent,eol,start
 
-        "mappings
+       
 
-".h to .cpp
-map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR> 
-        
-        "mappings
-
-
-        "shit for plugins
+" Plugins
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -60,9 +54,16 @@ Plugin 'scrooloose/nerdtree'
 
 " Plugin 'dhruvasagar/vim-table-mode' for tables
 Plugin 'dhruvasagar/vim-table-mode'
+
+
+" Plugin 'valloric/youcompleteme' for autocompete needs python3 
+" Plugin 'valloric/youcompleteme' 
+
 call vundle#end()
 
-"shit for table mode
+" End of plugins
+
+"settings for table mode
 function! s:isAtStartOfLine(mapping)
   let text_before_cursor = getline('.')[0 : col('.')-1]
   let mapping_pattern = '\V' . escape(a:mapping, '\')
@@ -76,10 +77,18 @@ inoreabbrev <expr> <bar><bar>
 inoreabbrev <expr> __
           \ <SID>isAtStartOfLine('__') ?
           \ '<c-o>:silent! TableModeDisable<cr>' : '__'
-"end of shit for table
+"end of settings for table mode
 
-"shit for nerdtree
+"mappings for nerdtree
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+"end of mappings for nerdtree
+
+"global mappings
+
+".h to .cpp
+map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR> 
+
+" end of mappings 

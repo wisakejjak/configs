@@ -12,7 +12,7 @@
 #  - /path/to/alacritty.yml
 
 import:
-  - ~/.config/alacritty/themes/themes/dark_pastels.yaml
+  - ~/.config/alacritty/themes/themes/zenburn.yaml
 
      # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -63,7 +63,7 @@ import:
   #     - none: Neither borders nor title bar
   #
   # Values for `decorations` (macOS only):
-  #     - transparent: Title bar, transparent background and title bar buttons
+  #      - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
   #decorations: full
 
@@ -71,7 +71,7 @@ import:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  #opacity: 0.5
+  # opacity: 0.5
 
   # Startup Mode (changes require restart)
   #
@@ -110,18 +110,21 @@ import:
 
 # Font configuration
 font:
-#  normal:
-#    family: monospace
-#    style: Regular
-#  bold:
-#    family: monospace
-#    style: Bold
-#  italic:
-#    family: monospace
-#    style: Italic
-#  bold_italic:
-#    family: monospace
-#    style: Bold Italic
+  normal:
+    family: lilex
+    style: Regular
+
+  bold:
+    family: lilex
+    style: Bold
+
+  italic:
+    family: lilex
+    style: Italic
+
+  bold_italic:
+    family: lilex 
+    style: Bold Italic  
   size: 8
 #
   # Offset is the extra space around each character. `offset.y` can be thought

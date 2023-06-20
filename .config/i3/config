@@ -4,6 +4,9 @@ set $mod Mod4
 #font
 font pango:monospace 10
 
+#background
+exec feh --no-startup-id --bg-fill ~/Pics/bg1.jpg
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
