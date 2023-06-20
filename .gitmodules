@@ -1,3 +1,9 @@
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+    url = git@github.com:VundleVim/Vundle.vim.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = git@github.com:preservim/nerdtree.git
 [submodule ".vim/bundle/table-mode~"]
 	path = .vim/bundle/table-mode~
 	url = git@github.com:dhruvasagar/vim-table-mode.git
