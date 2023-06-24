@@ -149,7 +149,9 @@ default_border pixel
 default_floating_border pixel
 hide_edge_borders smart
 smart_borders on
-for_window [class="firefox"] border pixel
+for_window [class="Thunar"] floating enable
+for_window [class="Thunar"] position center
+
 
 #COLORS
 # class                 border  bground text    indicator child_border
