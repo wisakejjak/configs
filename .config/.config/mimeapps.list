@@ -1,7 +1,0 @@
-[Default Applications]
-application/octet-stream=vlc.desktop
-
-[Added Associations]
-application/octet-stream=vlc.desktop;
-application/pdf=firefox.desktop;org.gnome.Evince.desktop;
-image/jpeg=gimp.desktop;

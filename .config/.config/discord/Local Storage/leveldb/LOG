@@ -1,8 +1,0 @@
-2023/06/24-13:05:28.269 5345 Reusing MANIFEST /home/wisakejjak/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/06/24-13:05:28.309 5345 Recovering log #139
-2023/06/24-13:05:28.641 5345 Level-0 table #142: started
-2023/06/24-13:05:28.949 5345 Level-0 table #142: 25230 bytes OK
-2023/06/24-13:05:29.065 5345 Delete type=0 #139
-2023/06/24-13:07:12.707 532d Level-0 table #145: started
-2023/06/24-13:07:12.810 532d Level-0 table #145: 1697144 bytes OK
-2023/06/24-13:07:12.904 532d Delete type=0 #143

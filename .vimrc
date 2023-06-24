@@ -90,4 +90,5 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 ".h to .cpp
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR> 
+
 " end of mappings 
