@@ -1,5 +1,4 @@
 set nocompatible
-
 "syntax highlighting
 syntax on
 
@@ -40,8 +39,6 @@ set incsearch
 "backspace in insert mode
 set backspace=indent,eol,start
 
-       
-
 " Plugins
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -55,9 +52,13 @@ Plugin 'scrooloose/nerdtree'
 " Plugin 'dhruvasagar/vim-table-mode' for tables
 Plugin 'dhruvasagar/vim-table-mode'
 
+" Plugin 'jiangmiao/auto-pairs for brackets
+Plugin 'jiangmiao/auto-pairs'
+
+" Plugin 'tpope/vim-commentary' for comment
+Plugin 'tpope/vim-commentary'
 
 " Plugin 'valloric/youcompleteme' for autocompete needs python3 
-" Plugin 'valloric/youcompleteme' 
 
 call vundle#end()
 
