@@ -39,6 +39,10 @@ set incsearch
 "backspace in insert mode
 set backspace=indent,eol,start
 
+"turn hybrid line numbers on
+:set number relativenumber
+:set nu rnu
+
 " Plugins
 
 set rtp+=~/.vim/bundle/Vundle.vim
