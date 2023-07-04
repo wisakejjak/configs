@@ -56,8 +56,8 @@ Plugin 'scrooloose/nerdtree'
 " Plugin 'dhruvasagar/vim-table-mode' for tables
 Plugin 'dhruvasagar/vim-table-mode'
 
-" Plugin 'jiangmiao/auto-pairs for brackets
-Plugin 'jiangmiao/auto-pairs'
+" Plugin 'raimondi/delimitmate' for brackets
+Plugin 'raimondi/delimitmate'
 
 " Plugin 'tpope/vim-commentary' for comment
 Plugin 'tpope/vim-commentary'
