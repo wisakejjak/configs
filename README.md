@@ -35,8 +35,8 @@ See also: https://i3wm.org/
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator.
 
 Settings:
-    * import theme
-    * font
+  * import theme
+  * font
 
 See also: https://github.com/alacritty/alacritty
 
