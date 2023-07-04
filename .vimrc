@@ -5,6 +5,10 @@ syntax on
 "numbers on left
 set number
 
+"turn hybrid line numbers on
+set number relativenumber
+set nu rnu
+
 "bottom orientaion
 set ruler
 
@@ -38,10 +42,6 @@ set incsearch
 
 "backspace in insert mode
 set backspace=indent,eol,start
-
-"turn hybrid line numbers on
-:set number relativenumber
-:set nu rnu
 
 " Plugins
 
