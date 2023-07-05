@@ -35,7 +35,7 @@ https://i3wm.org/
 
 ## Alacritty
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator. I just copied theme into
-config.
+config. Backgound and foreground colors was changed.
 
 Settings:
   * theme 
