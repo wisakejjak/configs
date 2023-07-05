@@ -60,9 +60,9 @@ Plugins:
    * Vim-table-mode for tables
    * Delimitmate for barckets
    * Vim-commentary for comments
-   * _Autocomplete in progress_
 
 Mappings:
+   * F2 for write and exit
+   * F3 for only write 
    * F4 for .h to .cpp
-
 See also: https://www.vim.org/

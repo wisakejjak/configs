@@ -93,7 +93,10 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 "global mappings
 
-".h to .cpp
+".h to .cpp by F4
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR> 
-
+"write and exit by F2
+map <F2> :x <CR>
+"only write by F3
+map <F3> :w <CR>
 " end of mappings 
