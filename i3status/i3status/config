@@ -49,5 +49,5 @@ cpu_temperature 0 {
 
 # Local time
 tztime local {
-    format = " %d %b  %H:%M:%S"
+    format = "%d %B %Y %H:%M:%S"
 }
