@@ -65,4 +65,5 @@ Mappings:
    * F2 for write and exit
    * F3 for only write 
    * F4 for .h to .cpp
+
 See also: https://www.vim.org/
