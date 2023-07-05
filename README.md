@@ -1,5 +1,5 @@
 # About
-In this repo i store my configs for i3WM, alacritty and Vim.
+In this repo i store my configs for i3WM, Alacritty and Vim.
 
 ## i3WM
 __i3WM__ is a tiling window manage for X11.
