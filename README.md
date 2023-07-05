@@ -29,7 +29,9 @@ Settings:
    * coloring client
    * coloring i3bar
 
-See also: https://i3wm.org/
+See also:
+
+https://i3wm.org/
 
 ## Alacritty
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator. I just copied theme into
@@ -39,7 +41,11 @@ Settings:
   * theme 
   * font
 
-See also: https://github.com/alacritty/alacritty, https://github.com/jnurmine/Zenburn
+See also:
+
+https://github.com/alacritty/alacritty
+
+https://github.com/jnurmine/Zenburn
 
 ## Vim
 __Vim__ - the ubiquitous text editor.
@@ -67,4 +73,6 @@ Mappings:
    * F3 for only write 
    * F4 for .h to .cpp
 
-See also: https://www.vim.org/
+See also:
+
+https://www.vim.org/
