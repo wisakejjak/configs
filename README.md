@@ -37,19 +37,19 @@ https://i3wm.org/
 __Polybar__ is a fast and easy-to-use tool for creating status bars.
 
 Settings:
-    * Colors
-    * Bar with
-        + workspaces
-        + cmus
-        + filesystem
-        + backlight
-        + pulseaudio
-        + xkeyboard
-        + RAM
-        + CPU
-        + wlan
-        + eth
-        + date
+  * Colors
+  * Bar with
+    + workspaces
+    + cmus
+    + filesystem
+    + backlight
+    + pulseaudio
+    + xkeyboard
+    + RAM
+    + CPU
+    + wlan
+    + eth
+    + date
 
 In process: gradient coloring modules on the right 
 
@@ -64,10 +64,10 @@ https://github.com/polybar/polybar
 __Picom__ is a compositor for X, and a fork of Compton
 
 Settings:
-    * opacity for Alacritty
-    * blur
-    * vsync
-    * backed = glx
+  * opacity for Alacritty
+  * blur
+  * vsync
+  * backed = glx
 
 See also:
 
@@ -80,9 +80,9 @@ https://en.wikipedia.org/wiki/Picom
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator
 
 Settings:
-    * import colorsheme papercolor_dark
-    * scrolling settings
-    * font
+  * import colorsheme papercolor_dark
+  * scrolling settings
+  * font
     
 See also:
 
@@ -94,24 +94,24 @@ https://alacritty.org/
 __Vim__ - the ubiquitous text editor.
 
 Settings: 
-   * syntax highlight
-   * numbers on left (hybrid line numbers)
-   * bottom orientation
-   * no backup
-   * no swapfiles
-   * no bell sound
-   * some tab settings
-   * autowidth
-   * some settings for search
-   * normal backspace in insert mode
+  * syntax highlight
+  * numbers on left (hybrid line numbers)
+  * bottom orientation
+  * no backup
+  * no swapfiles
+  * no bell sound
+  * some tab settings
+  * autowidth
+  * some settings for search
+  * normal backspace in insert mode
 
 Plugins:
-    * Vundle.vim for plugins
-    * YouCompleteMe for autocomplete
-    * Delimitmate for barckets   
-    * Nerdtree for switching between files
-    * Vim-commentary for comments
-    * Vim-table-mode for tables
+  * Vundle.vim for plugins
+  * YouCompleteMe for autocomplete
+  * Delimitmate for barckets
+  * Nerdtree for switching between files
+  * Vim-commentary for comments
+  * Vim-table-mode for tables
 
 Mappings:
    * F2 for write and exit
