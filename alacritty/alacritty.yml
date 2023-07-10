@@ -1,0 +1,20 @@
+import: 
+  - ~/.config/alacritty/papercolor_dark.yaml 
+scrolling:
+  history: 10000
+  multiplier: 3
+font:
+  normal:
+    family: Lilex
+    style: Medium  
+  bold:
+    family: Lilex
+    style: Bold
+  italic:
+    family: Lilex
+    style: MediumItalic  
+  bold_italic:
+    family: Lilex
+    style: BoldItalic
+
+

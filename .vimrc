@@ -1,3 +1,4 @@
+filetype off
 set nocompatible
 "syntax highlighting
 syntax on
@@ -24,9 +25,10 @@ set visualbell t_vb=
 "tab settings
 set tabstop=4
 set shiftwidth=4
-set smarttab
-set expandtab
-set smartindent
+"set smarttab
+"set autoindent
+"set expandtab
+"set smartindent
 
 "autowidth
 set textwidth=90
@@ -45,27 +47,28 @@ set backspace=indent,eol,start
 
 " Plugins
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-" Plugin for 'file manager' in vim
+"Plugin for 'file manager' in vim
 Plugin 'scrooloose/nerdtree'
 
-" Plugin 'dhruvasagar/vim-table-mode' for tables
+"Plugin 'dhruvasagar/vim-table-mode' for tables
 Plugin 'dhruvasagar/vim-table-mode'
 
-" Plugin 'raimondi/delimitmate' for brackets
+"Plugin 'raimondi/delimitmate' for brackets
 Plugin 'raimondi/delimitmate'
 
-" Plugin 'tpope/vim-commentary' for comment
+"Plugin 'tpope/vim-commentary' for comment
 Plugin 'tpope/vim-commentary'
 
-" Plugin 'valloric/youcompleteme' for autocompete needs python3 
+"Plugin youcompleteme
+Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
-
+filetype plugin indent on
 " End of plugins
 
 "settings for table mode
