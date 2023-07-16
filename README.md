@@ -4,6 +4,9 @@ In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
 <a name="Content">
 
 # Content
+
+</a>
+
   1. [i3WM](#i3wm)
   2. [Polybar](#polybar)
   3. [Picom](#picom)
