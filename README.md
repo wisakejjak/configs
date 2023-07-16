@@ -70,10 +70,8 @@ Settings:
   * backed = glx
 
 See also:
-
-https://github.com/yshui/picom
-
-https://en.wikipedia.org/wiki/Picom
+  + https://github.com/yshui/picom
+  + https://en.wikipedia.org/wiki/Picom
 
 ## Alacritty
 
@@ -85,10 +83,8 @@ Settings:
   * font
     
 See also:
-
-https://github.com/alacritty/alacritty
-
-https://alacritty.org/
+  + https://github.com/alacritty/alacritty
+  + https://alacritty.org/
 
 ## Vim
 __Vim__ - the ubiquitous text editor.
@@ -118,6 +114,9 @@ Mappings:
    * F3 for only write 
    * F4 for .h to .cpp
 
-See also:
+For YouCompleteMe plugin Vim must be compiled with `--enable-shared` (or `--enable-framework` on macOS). To do this, download Vim from the **[official website](https://www.vim.org/)** or **[repository](https://github.com/vim/vim)** and familiarize yourself with the documentation of this program. Also, I recommend read **[ArchWiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)** (GNU/Linux users).
 
-https://www.vim.org/
+See also:
+  - [Vim official website](https://www.vim.org/)
+  - [YouCompleteMe on Arch Wiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)
+  - [official Vim account on github](https://github.com/vim)
