@@ -1,8 +1,16 @@
 # About
 In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
 
+# Content
+  1. [i3WM](#i3wm)
+  2. [Polybar](#polybar)
+  3. [Picom](#picom)
+  4. [Alacritty](#alacritty)
+  5. [Vim](#vim)
+<a name="i3wm">
+  
 ## i3WM
-__i3WM__ is a tiling window manage for X11.
+__i3WM__ is a tiling window manager for X11.
 
 Settings:
    * super button
@@ -30,8 +38,11 @@ Settings:
 
 See also:
 
-https://i3wm.org/
+- [Official i3wm website](https://i3wm.org/)
 
+
+<a name="polybar">
+  
 ## Polybar
 
 __Polybar__ is a fast and easy-to-use tool for creating status bars.
@@ -51,13 +62,14 @@ Settings:
     + eth
     + date
 
-In process: gradient coloring modules on the right 
+**In process: gradient coloring modules on the right**
 
 See also:
 
-https://wiki.archlinux.org/title/Polybar
+-  [Polybar on Arch Wiki](https://wiki.archlinux.org/title/Polybar)
+-  [Polybar on Github](https://github.com/polybar/polybar)
 
-https://github.com/polybar/polybar
+<a name="picom">
 
 ## Picom
 
@@ -70,8 +82,10 @@ Settings:
   * backed = glx
 
 See also:
-  + https://github.com/yshui/picom
-  + https://en.wikipedia.org/wiki/Picom
+  + [Picom on Github](https://github.com/yshui/picom)
+  + [Picom on Wikipedia](https://en.wikipedia.org/wiki/Picom)
+
+<a name="alacritty">
 
 ## Alacritty
 
@@ -83,8 +97,10 @@ Settings:
   * font
     
 See also:
-  + https://github.com/alacritty/alacritty
-  + https://alacritty.org/
+  - [Alacritty on Github](https://github.com/alacritty/alacritty)
+  - [Official Alacritty website](https://alacritty.org/)
+
+<a name="vim">
 
 ## Vim
 __Vim__ - the ubiquitous text editor.
@@ -119,4 +135,4 @@ For YouCompleteMe plugin Vim must be compiled with `--enable-shared` (or `--enab
 See also:
   - [Vim official website](https://www.vim.org/)
   - [YouCompleteMe on Arch Wiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)
-  - [official Vim account on github](https://github.com/vim)
+  - [official Vim account on Github](https://github.com/vim)
