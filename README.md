@@ -1,6 +1,8 @@
 # About
 In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
 
+<a name="Content">
+
 # Content
   1. [i3WM](#i3wm)
   2. [Polybar](#polybar)
@@ -40,6 +42,7 @@ See also:
 
 - [Official i3wm website](https://i3wm.org/)
 
+[:arrow_up:Back to top](#Content)
 
 <a name="polybar">
   
@@ -69,6 +72,8 @@ See also:
 -  [Polybar on Arch Wiki](https://wiki.archlinux.org/title/Polybar)
 -  [Polybar on Github](https://github.com/polybar/polybar)
 
+[:arrow_up:Back to top](#Content)
+
 <a name="picom">
 
 ## Picom
@@ -85,6 +90,8 @@ See also:
   + [Picom on Github](https://github.com/yshui/picom)
   + [Picom on Wikipedia](https://en.wikipedia.org/wiki/Picom)
 
+[:arrow_up:Back to top](#Content)
+
 <a name="alacritty">
 
 ## Alacritty
@@ -99,6 +106,8 @@ Settings:
 See also:
   - [Alacritty on Github](https://github.com/alacritty/alacritty)
   - [Official Alacritty website](https://alacritty.org/)
+
+[:arrow_up:Back to top](#Content)
 
 <a name="vim">
 
@@ -136,3 +145,5 @@ See also:
   - [Vim official website](https://www.vim.org/)
   - [YouCompleteMe on Arch Wiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)
   - [official Vim account on Github](https://github.com/vim)
+
+[:arrow_up:Back to top](#Content)
