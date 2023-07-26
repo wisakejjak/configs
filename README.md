@@ -7,12 +7,11 @@ In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
 
 </a>
 
-  1. [i3WM](#i3wm)
-  2. [Polybar](#polybar)
-  3. [Picom](#picom)
-  4. [Alacritty](#alacritty)
-  5. [Vim](#vim)
-<a name="i3wm">
+  1. i3WM
+  2. Polybar
+  3. Picom
+  4. Alacritty
+  5. Vim
   
 ## i3WM
 __i3WM__ is a tiling window manager for X11.
@@ -46,8 +45,6 @@ See also:
 - [Official i3wm website](https://i3wm.org/)
 
 [:arrow_up:Back to top](#Content)
-
-<a name="polybar">
   
 ## Polybar
 
@@ -69,6 +66,7 @@ Settings:
     + date
 
 **In process: gradient coloring modules on the right**
+**In process: deleting unused modules**
 
 See also:
 
@@ -77,7 +75,6 @@ See also:
 
 [:arrow_up:Back to top](#Content)
 
-<a name="picom">
 
 ## Picom
 
@@ -95,7 +92,6 @@ See also:
 
 [:arrow_up:Back to top](#Content)
 
-<a name="alacritty">
 
 ## Alacritty
 
@@ -111,8 +107,6 @@ See also:
   - [Official Alacritty website](https://alacritty.org/)
 
 [:arrow_up:Back to top](#Content)
-
-<a name="vim">
 
 ## Vim
 __Vim__ - the ubiquitous text editor.
