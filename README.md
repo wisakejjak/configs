@@ -1,11 +1,9 @@
+<a name="Top"></a>
+
 # About
 In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
 
-<a name="Content">
-
 # Content
-
-</a>
 
   1. i3WM
   2. Polybar
@@ -45,7 +43,7 @@ See also:
 
 - [Official i3wm website](https://i3wm.org/)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#Top)
   
 ## Polybar
 
@@ -75,7 +73,7 @@ See also:
 -  [Polybar on Arch Wiki](https://wiki.archlinux.org/title/Polybar)
 -  [Polybar on Github](https://github.com/polybar/polybar)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#Top)
 
 
 ## Picom
@@ -92,7 +90,7 @@ See also:
   + [Picom on Github](https://github.com/yshui/picom)
   + [Picom on Wikipedia](https://en.wikipedia.org/wiki/Picom)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#Top)
 
 
 ## Alacritty
@@ -108,7 +106,7 @@ See also:
   - [Alacritty on Github](https://github.com/alacritty/alacritty)
   - [Official Alacritty website](https://alacritty.org/)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#Top)
 
 ## Vim
 __Vim__ - the ubiquitous text editor.
@@ -156,4 +154,4 @@ See also:
   - [YouCompleteMe on Arch Wiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)
   - [official Vim account on Github](https://github.com/vim)
 
-[:arrow_up:Back to top](#Content)
+[:arrow_up:Back to top](#Top)
