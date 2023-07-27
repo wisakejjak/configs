@@ -65,8 +65,9 @@ Settings:
     + eth
     + date
 
-**In process: gradient coloring modules on the right**
-**In process: deleting unused modules**
+**In process:**
+  + gradient coloring modules on the right
+  + deleting unused modules
 
 See also:
 
