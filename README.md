@@ -67,7 +67,7 @@ See also:
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator
 
 Settings:
-  * import colorsheme papercolor_dark
+  * *colorscheme in progress*
   * scrolling settings
   * font
     
