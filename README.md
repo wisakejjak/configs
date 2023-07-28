@@ -1,5 +1,5 @@
 # About
-In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
+In this repo i store my configs for i3WM, Picom, Alacritty and Vim.
 
 <a name="Content">
 
@@ -8,10 +8,9 @@ In this repo i store my configs for i3WM, Polybar, Picom, Alacritty and Vim.
 </a>
 
   1. i3WM
-  2. Polybar
-  3. Picom
-  4. Alacritty
-  5. Vim
+  2. Picom
+  3. Alacritty
+  4. Vim
   
 ## i3WM
 __i3WM__ is a tiling window manager for X11.
@@ -38,7 +37,7 @@ Settings:
    * Brightness
    * Border style
    * coloring client
-   * polybar
+   * i3bar (i3status)
 
 See also:
 
@@ -46,36 +45,6 @@ See also:
 
 [:arrow_up:Back to top](#Content)
   
-## Polybar
-
-__Polybar__ is a fast and easy-to-use tool for creating status bars.
-
-Settings:
-  * Colors
-  * Bar with
-    + workspaces
-    + cmus
-    + filesystem
-    + backlight
-    + pulseaudio
-    + xkeyboard
-    + RAM
-    + CPU
-    + wlan
-    + eth
-    + date
-
-**In process: gradient coloring modules on the right**
-**In process: deleting unused modules**
-
-See also:
-
--  [Polybar on Arch Wiki](https://wiki.archlinux.org/title/Polybar)
--  [Polybar on Github](https://github.com/polybar/polybar)
-
-[:arrow_up:Back to top](#Content)
-
-
 ## Picom
 
 __Picom__ is a compositor for X, and a fork of Compton

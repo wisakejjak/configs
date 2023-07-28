@@ -2,7 +2,7 @@
 set $mod Mod4
 
 #font
-font pango:monospace 10
+font pango:mononoki 10
 
 #Background
 exec --no-startup-id nitrogen --restore &
@@ -13,11 +13,14 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty 
 
+#Firefox
+bindsym $mod+Shift+f exec firefox
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
 #Dmenu (a program launcher)
-bindsym $mod+d exec "dmenu_run -nf '#EEEEEE' -nb '#31572C' -sb '#4F772D' -sf '#EEEEEE' -fn 'monospace-10' -p 'apps'"
+bindsym $mod+d exec "dmenu_run -nf '#d3d9c5' -nb '#374741' -sb '#435e54' -sf '#d3d9c5' -fn 'mononoki-12' -p 'apps'"
 
 #Sound
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -29,21 +32,18 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 exec --no-startup-id setxkbmap -layout "us,ru" -option "grp:caps_toggle"
 
 #Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
 
 #NetworkManager
 exec --no-startup-id nm-applet
 
 #Screenshooter
-exec --no-startup-id flameshot
+#exec --no-startup-id flameshot
 
 #Brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id  "light -A 10"
 bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 10"
-
-#Firefox
-bindsym $mod+Shift+f exec firefox
-
 
 # change focus
 bindsym $mod+j focus left
@@ -161,3 +161,22 @@ client.unfocused        #4F772D #4F772D #FFFFFF #292D2E   #222222
 client.urgent           #4F772D #742727 #FFFFFF #742727   #742727
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 client.background       #FFFFFF
+
+#i3bar
+bar{
+	output eDP1
+	status_command i3status --config $HOME/.config/i3status/i3status.conf
+	position top
+	workspace_buttons yes
+	mode hide
+	tray_output primary
+	font pango:Input 10
+    	colors {
+        	background #33341a
+        	statusline #efedde
+        	focused_workspace  #efedde #6a6637
+        	active_workspace   #efedde #333333
+        	inactive_workspace #efedde #33341a
+        	urgent_workspace   #efedde #a99d4a
+    	}
+}
