@@ -95,7 +95,7 @@ Settings:
 Plugins:
   * [Vundle.vim](https://github.com/VundleVim/Vundle.vim) for plugins
   * [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe) for autocomplete
-  * [Delimitmate](https://github.com/Raimondi/delimitMate) for barckets
+  * [Auto-pairs](https://github.com/jiangmiao/auto-pairs) for barckets
   * [Nerdtree](https://github.com/preservim/nerdtree) for switching between files
   * [Vim-commentary](https://github.com/tpope/vim-commentary) for comments
   * [Vim-table-mode](https://github.com/dhruvasagar/vim-table-mode) for tables
