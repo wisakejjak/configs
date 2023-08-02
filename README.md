@@ -1,49 +1,13 @@
 <a name="Top"></a>
 
 # About
-In this repo i store my configs for i3WM, Picom, Alacritty and Vim.
+In this repo i store my configs for Picom, Alacritty and Vim.
 
 # Content
 
-  1. i3WM
-  2. Picom
-  3. Alacritty
-  4. Vim
-  
-## i3WM
-__i3WM__ is a tiling window manager for X11.
-
-Settings:
-   * Super button (super)
-   * Font (mononoki)
-   * Background (by nitrogen)
-   * Terminal opacity (picom)
-   * Some hotkeys for terminal, web browser (alacritty and firefox)
-   * Coloring dmenu (like in polybar)
-   * Moving windows
-   * Vertical and horizontal split
-   * Fullscreen
-   * Change container layout
-   * Toogle tiling / floating
-   * Switch to workspace
-   * Move focused container to workspace
-   * Reload and restart
-   * Resize window
-   * Sound
-   * Keymap
-   * Network-manager
-   * Brightness
-   * Border style
-   * coloring client
-   * i3bar (i3status)
-
-Also, see config for actual information. Maybe it can help you
-
-See also:
-
-- [Official i3wm website](https://i3wm.org/)
-
-[:arrow_up:Back to top](#Top)
+  1. Picom
+  2. Alacritty
+  3. Vim
   
 ## Picom
 
