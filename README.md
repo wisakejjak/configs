@@ -1,15 +1,17 @@
-<a name="Top"></a>
+<a name="Top">
 
-# About
+## About
 In this repo i store my configs for Picom, Alacritty and Vim.
 
-# Content
+</a>
+
+## Content
 
   1. Picom
   2. Alacritty
   3. Vim
   
-## Picom
+### Picom
 
 __Picom__ is a compositor for X, and a fork of Compton
 
@@ -26,7 +28,7 @@ See also:
 [:arrow_up:Back to top](#Top)
 
 
-## Alacritty
+### Alacritty
 
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator
 
@@ -41,7 +43,7 @@ See also:
 
 [:arrow_up:Back to top](#Top)
 
-## Vim
+### Vim
 __Vim__ - the ubiquitous text editor.
 
 Settings: 
