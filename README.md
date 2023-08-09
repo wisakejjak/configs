@@ -1,9 +1,11 @@
-<a name="Top"></a>
+<a name="Top">
 
 # About
 In this repo i store my configs for I3WM, Alacritty and Vim.
 
-# Content
+</a>
+
+## Content
 
   1. I3WM
   2. Alacritty
@@ -26,7 +28,7 @@ See also [official i3wm website](https://i3wm.org/)
 [:arrow_up:Back to top](#Top)
 
 
-## Alacritty
+### Alacritty
 
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator
 
@@ -41,7 +43,7 @@ See also:
 
 [:arrow_up:Back to top](#Top)
 
-## Vim
+### Vim
 __Vim__ - the ubiquitous text editor.
 
 Settings: 
@@ -65,11 +67,11 @@ Plugins:
   * [Vim-table-mode](https://github.com/dhruvasagar/vim-table-mode) for tables
 
 Mappings:
-   * F2 for write and exit
-   * F3 for only write 
-   * F4 for .h to .cpp
+   * F2 to write and exit
+   * F3 to only write 
+   * F4 to jump from .h on .cpp and vice versa
 
-For YouCompleteMe plugin Vim must be compiled with `--enable-shared` (or `--enable-framework` on macOS). To do this, download Vim from the **[official website](https://www.vim.org/)** or **[repository](https://github.com/vim/vim)** and familiarize yourself with the documentation of this program. Also, I recommend read **[ArchWiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)** (GNU/Linux users). In Artix i made this:
+For YouCompleteMe plugin Vim must be compiled with `--enable-shared` (or `--enable-framework` on macOS). To do this, download Vim from the **[official website](https://www.vim.org/)** or **[repository](https://github.com/vim/vim)** and familiarize yourself with the documentation of this program. Also, I recommend read **[ArchWiki](https://wiki.archlinux.org/title/Vim/YouCompleteMe)** (GNU/Linux users). In [Artix](https://artixlinux.org/) i made this:
   1. ``sudo pacman -Syu base-devel ncurses python3``
   2. ``git clone https://github.com/vim/vim.git``
   3. ``cd vim``
