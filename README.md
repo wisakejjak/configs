@@ -1,27 +1,27 @@
 <a name="Top"></a>
 
 # About
-In this repo i store my configs for Picom, Alacritty and Vim.
+In this repo i store my configs for I3WM, Alacritty and Vim.
 
 # Content
 
-  1. Picom
+  1. I3WM
   2. Alacritty
   3. Vim
   
-## Picom
+## I3WM
 
-__Picom__ is a compositor for X, and a fork of Compton
+__I3WM__ is a tiling window manager for X11.
 
 Settings:
-  * opacity for Alacritty
-  * blur
-  * vsync
-  * backed = glx
+  * Font
+  * Some hotkeys for terminal, web browser (alacritty and firefox)
+  * I3bar
+  * Other settings
 
-See also:
-  + [Picom on Github](https://github.com/yshui/picom)
-  + [Picom on Wikipedia](https://en.wikipedia.org/wiki/Picom)
+Also, see config for actual information. Maybe it can help you
+
+See also [official i3wm website](https://i3wm.org/)
 
 [:arrow_up:Back to top](#Top)
 
