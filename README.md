@@ -33,7 +33,6 @@ See also [official i3wm website](https://i3wm.org/)
 __Alacritty__ - A fast, cross-platform, OpenGL terminal emulator
 
 Settings:
-  * *colorscheme in progress*
   * scrolling settings
   * font
     
