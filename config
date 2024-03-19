@@ -8,7 +8,7 @@ font pango:mononoki 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty 
+bindsym $mod+Return exec alacritty
 
 #Firefox
 bindsym $mod+Shift+f exec firefox
@@ -17,15 +17,15 @@ bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+q kill
 
 #Dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run 
+bindsym $mod+d exec dmenu_run
 
 #Sound
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
-
-exec --no-startup-id pipewire &
+exec --no-startup-id amixer sset Master unmute
+exec --no-startup-id amixer sset Speaker unmute
+exec --no-startup-id amixer sset Headphone unmute
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
+bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 
 #NetworkManager
 exec --no-startup-id nm-applet
@@ -142,12 +142,12 @@ hide_edge_borders none
 
 #COLORS
 # class                 border  bground text    indicator child_border
-client.focused          #ECF39E #90A955 #FFFFFF #90A955   #ECF39E
-client.focused_inactive #4F772D #4F772D #FFFFFF #484E50   #5F676A
-client.unfocused        #4F772D #4F772D #FFFFFF #292D2E   #222222
-client.urgent           #4F772D #742727 #FFFFFF #742727   #742727
-client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
-client.background       #FFFFFF
+#client.focused          #ECF39E #90A955 #FFFFFF #90A955   #ECF39E
+#client.focused_inactive #4F772D #4F772D #FFFFFF #484E50   #5F676A
+#client.unfocused        #4F772D #4F772D #FFFFFF #292D2E   #222222
+#client.urgent           #4F772D #742727 #FFFFFF #742727   #742727
+#client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+#client.background       #FFFFFF
 
 #i3bar
 bar{
@@ -155,7 +155,7 @@ bar{
 	status_command i3status --config ~/.config/i3status/i3status.conf
 	position top
 	workspace_buttons yes
-	separator_symbol ":"
-	font pango:DejaVu Sans Mono 10 
+	separator_symbol "/"
+	font pango:Fira Code 10
 	tray_output primary
 }
