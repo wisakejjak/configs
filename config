@@ -27,10 +27,6 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 exec --no-startup-id pipewire &
 
-#Keymap
-# exec --no-startup-id setxkbmap -layout "us,ru" -option "grp:caps_toggle"
-exec --no-startup-id ./caps.sh
-
 #NetworkManager
 exec --no-startup-id nm-applet
 
