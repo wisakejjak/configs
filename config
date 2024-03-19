@@ -11,7 +11,10 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 #Firefox
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+f exec apulse firefox
+
+#Discord
+bindsym $mod+Shift+d exec apulse discord
 
 # kill focused window
 bindsym $mod+Shift+q kill
