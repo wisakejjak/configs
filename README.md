@@ -74,7 +74,7 @@ For YouCompleteMe plugin Vim must be compiled with `--enable-shared` (or `--enab
   1. ``sudo pacman -Syu base-devel ncurses python3``
   2. ``git clone https://github.com/vim/vim.git``
   3. ``cd vim``
-  4. ``./configure --with-features=huge --enable-multibyte --enable-python3interp=yes --with-python3-config-dir=/usr/lib/python3.X/config-3.Xm-x86_64-linux-gnu --enable-cscope --prefix=/usr/local``
+  4. ``./configure --with-features=huge --enable-multibyte --with-python3-command=python3.X --enable-python3interp=yes --with-python3-config-dir=/usr/lib/python3.X/config-3.Xm-x86_64-linux-gnu --enable-cscope --prefix=/usr/local`` (replace X in version of python)
   5. ``make -j4`` (The ``-j4`` flag enables parallel compilation with four jobs. You can change the number according to your system's capabilities)
   6. ``sudo make install``
   7. ``cd ~/.vim/bundle/``
